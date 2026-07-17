@@ -2183,17 +2183,38 @@ button:hover,
 
 #header-wrapper {
   position: relative;
-  background-image: url("images/overlay.png"), url("images/header.svg"),
-    linear-gradient(75deg, #687864 20%, #5085a5 60%);
+  background-image:
+    url("images/overlay.png"),
+    url("images/header.svg"),
+    linear-gradient(
+      75deg,
+      #e64626 0%,
+      #d45431 20%,
+      #a65a4b 45%,
+      #6d5958 70%,
+      #424242 100%
+    );
+  background-color: #e64626;
   padding-bottom: 5em;
 }
 
 #home-header-wrapper {
   position: relative;
-  background-image: url("images/overlay.png"), url("images/header.svg"),
-    linear-gradient(75deg, #687864 20%, #5085a5 60%);
+  background-image:
+    url("images/overlay.png"),
+    url("images/header.svg"),
+    linear-gradient(
+      75deg,
+      #e64626 0%,
+      #d45431 20%,
+      #a65a4b 45%,
+      #6d5958 70%,
+      #424242 100%
+    );
+  background-color: #e64626;
   padding: 5em 0 1em 0;
 }
+
 
 #promo-wrapper {
   position: relative;
